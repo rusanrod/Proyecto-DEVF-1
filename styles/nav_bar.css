@@ -1,0 +1,65 @@
+.debug_nav_bar{
+/* border: 1px solid #000; */
+
+}
+.nav_bar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 5px 0;    
+
+}
+.btn_container{
+    padding-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 3;
+    
+
+}
+.barra{
+    align-self: center;
+    flex-basis: 25%;
+    flex-shrink: 1;
+}
+#barra_busqueda{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f0f0;
+    border: 1px solid #dfdfdf;
+    text-align: Left;
+    border-radius: 7px;
+    
+}
+
+.logo_container{
+    padding-right: 15%;
+    flex-shrink: 3;
+
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    
+}
+
+@media screen and (max-width:640px){
+    .barra{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:850px){
+    .logo_container{
+        padding-right: 10%;
+    }
+    
+}
