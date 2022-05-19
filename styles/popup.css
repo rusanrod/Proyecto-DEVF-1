@@ -50,6 +50,25 @@
 
     
 }
+
+#popupBody-pup{
+    
+    width: 50%;
+    height: 70%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    margin: 20% auto;  
+    transition: all 2s ease-in-out; 
+    display: flex;
+    flex-flow: column nowrap;
+    
+    align-items: center;
+
+    
+}
 .title{
     width: 100%;
     text-align: center;

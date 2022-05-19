@@ -19,8 +19,8 @@
             <a href="#popup-msg">       <img class="btn" src="./images/message.jpg" alt="Messages"> </a>
             <a href="#popup-post">      <img class="btn" src="./images/publish.jpg" alt="New_post"> </a>
             <a href="./pages/explore.html">   <img class="btn" src="./images/explore.jpg" alt="Explore">  </a>
-            <a href="">                 <img class="btn" src="./images/activity.jpg" alt="Activity"></a>
-            <a href="">                 <img class="btn" src="./images/profile.jpg" alt="Me">       </a>
+            <a href="#popup-activity">                 <img class="btn" src="./images/activity.jpg" alt="Activity"></a>
+            <a href="#popup-settings">                 <img class="btn" src="./images/profile.jpg" alt="Me">       </a>
         </div>
     </nav>
     <section class="content">
@@ -102,7 +102,30 @@
                 <a id="cerrar" href="#">&times;</a>
                 <div class="popupContent">
                     <p>Drag photos and videos here</p>
-                    <a href="" class="btn pop">Select from computer</a>
+                    <a href="#" class="btn pop">Select from computer</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-activity" class="overlay">
+            <div id="popupBody-post">
+                <div class="title">Activity</div>
+                <a id="cerrar" href="#">&times;</a>
+                <div class="popupContent">
+                    <p>Oops! looks like you have any activity yet.</p>
+                    <p>Come back when you're done</p>
+                    <a href="#" class="btn pop">Return</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-settings" class="overlay">
+            <div id="popupBody-pup">
+                <div class="title">Settings</div>
+                <a id="cerrar" href="#">&times;</a>
+                <div class="popupContent">
+                    <p><strong>Oops!</strong>  Take it easy! We're working as fast as we can.</p>
+                    <p>We'll let you know when we finish.</p>
+                    <p>Meanwhile, enjoy this puppy.</p>
+                    <a href="#" class="btn pop"><img src="./images/puppy.jpg" alt="puppy"></a>
                 </div>
             </div>
         </div>
