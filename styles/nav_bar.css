@@ -1,7 +1,7 @@
-.debug_nav_bar{
-/* border: 1px solid #000; */
+/* .debug_nav_bar{
+border: 1px solid #000;
 
-}
+} */
 .nav_bar{
     display: flex;
     flex-flow: row nowrap;
